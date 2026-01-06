@@ -20,3 +20,33 @@ Além disso, o projeto evoluirá para incluir conceitos úteis em:
 - Streamlit
 - Git e GitHub
 
+## Estrutura do Projeto
+
+Gestão-de-Estoque-Veicular/ |--- app.py |--- requirements.txt |--- README.md |--- .gitignore |--- data/ |--- venv/
+
+## Como Executar o Projeto
+
+1. Crie e ative o ambiente virtual 
+'''bash
+python -m venv venv 
+venv\Scripts\activate
+
+2. # Instale as dependências 
+pip install -r requirements.txt
+
+3. # Execute o projeto
+streamlit run app.py
+
+Status do Projeto:
+- Em desenvolvimentos - novas funcionalidades serão adicionadas 
+
+---
+
+## Passo 3 - SUBIR O README PARA O GITHUB
+
+No terminal:
+
+''' bash
+git add README.md
+git commit -m "Adiciona documentação inicial do projeto"
+git push
