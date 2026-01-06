@@ -27,7 +27,7 @@ st.divider()
 # ------------------------
 
 #Cria o caminho do arquivo onde os dados serão salvos
-CAMINHO_ARQUIVO = "data/estoque_veiculos.csv"
+CAMINHO_ARQUIVO = "../data/estoque_veiculos.csv"
 
 #Se o arquivo ainda não existir, cria ele com o cabeçalho
 if not os.path.exists(CAMINHO_ARQUIVO):
